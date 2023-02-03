@@ -34,7 +34,7 @@ df.sort_values(x, ascending = False)
 #印出前5筆資料
 df.head()
 #return bool
-data.isnull()
+data.isnull()[[Pandas Note]]
 #印出中位數,平均數,標準差...各種統計數據
 df.describe()
 #印出data的type
