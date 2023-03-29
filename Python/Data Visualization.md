@@ -1,13 +1,17 @@
+
 ###### 設定圖的x, y, title
+
 ```Python
 plt.xlabel('xx')
 plt.ylabel('xx')
 plt.title('xx')
 ```
+
 ###### plot類型
+
 ```Python
 #kind參數有以下
-#line, area, 
+#line, area,
 # Histograms
 xx.plt(kind=)''
 ```
@@ -43,5 +47,5 @@ df.plot()
 #設定x座標字體傾斜角度
 plt.xticks(rotation=幾度)
 #用sklearn把data標準化參數0,1可修改
-scaler = MinMaxScaler(feature_range=(0, 1)).fit(df) 
+scaler = MinMaxScaler(feature_range=(0, 1)).fit(df)
 df_scaled = scaler.transform(df)
